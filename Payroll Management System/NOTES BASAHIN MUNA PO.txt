@@ -1,0 +1,29 @@
+dapat connect po sa internet para gumana alert 
+
+EXTRACT FILE
+MOVE FILE TO LOCAL DISK (C:)/XAMPP/HTDOCS 
+
+
+*IMPORT DATABASE
+
+OPEN XAMPP
+START APACHE AND MYSQL
+PRESS ADMIN ON MYSQL
+CREATE DATABASE NAME "payroll"
+IMPORT DATABASE "payroll.sql"
+
+INSTALL PHP SERVER BRAPIFRA
+OPEN VSCODE
+FILE>OPEN FOLDER>PAYROLL MANAGEMENT SYSTEM
+
+LOGIN>loginMain.php
+
+Right Click "PHP SERVER: Reload Server"
+
+username: Admin	
+password: admin123
+
+username: user
+password: user123
+
+PAKIDELETE PO PAG OK NA 
